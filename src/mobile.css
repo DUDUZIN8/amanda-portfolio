@@ -1,0 +1,88 @@
+@media only screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden; /* Impede rolagem horizontal em toda a página */
+}
+
+   nav.navbar{
+    padding: 10px 10px;
+    width: 250px;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+   }
+   nav.navbar .navbar-nav .nav-link.navbar-link{
+    font-weight: 100;
+    padding: 10px;
+    font-size: 12px;
+    position: relative; /* Fixed to the viewport */
+    display: flex;
+    left: -80%;
+   }
+   .social-icon a{
+    width: 30px;
+    height: 30px;
+    top: 12px;
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+   }
+   .navbar-text button{
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    position: absolute;
+    top: 2px;
+    padding: 15px 25px;
+  }
+   .banner{
+    position: relative;
+    top: 0;
+    padding:300px 0;
+   }
+   .banner .tagline{
+   font-size: 16px;
+   }
+   .banner h1{
+    font-size: 40px;
+    max-width: 500px;
+   }
+   .banner img{
+    width: 190px;
+    position: absolute;
+    right: 30%;
+    margin-top: -15px;
+   }
+  .skill{
+    margin-bottom: 40px;
+  }
+  .skill-slider{
+    width: 120%;
+    position: relative;
+    right: 40px;
+  }
+  .channel{
+    width: 85%;
+    height: 400px;
+    margin-bottom: 50px;
+  }
+
+  .channel .taglino{
+    font-size: 20px;
+  }
+  
+  .channel p{
+    font-size: 12px;
+    max-width: 220px;
+    position: relative;
+    bottom: 15px;
+  }
+  .channel img{
+    width: 100px;
+    position: relative;
+    bottom: 220px;
+  }
+  .channel .vvs{
+    position: relative;
+    bottom: 15px;
+  }
+  }

@@ -1,4 +1,5 @@
 import './App.css';
+import './mobile.css';
 import { Banner } from './components/Banner';
 import { Channel } from './components/Channel';
 import { NavegationContainer } from './components/Navbar';

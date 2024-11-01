@@ -47,7 +47,7 @@ export const NavegationContainer = () => {
             <div className="social-icon">
                 <a href="https://www.youtube.com/@MANDLYZKILLFF" className="linkedin"><img src={navIcon1} alt="LinkedIn Icon" /></a>
                 <a href="#" className="facebook"><img src={navIcon2} alt="Facebook Icon" /></a>
-                <a href="#" className="instagram"><img src={navIcon3} alt="Instagram Icon" /></a>
+                <a href="https://www.instagram.com/mandlyzkill?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="instagram"><img src={navIcon3} alt="Instagram Icon" /></a>
                 </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Meu Canal</span></button>
