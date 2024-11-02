@@ -1,88 +1,173 @@
+/* Estilos principais para telas até 768px */
 @media only screen and (max-width: 768px) {
   html, body {
     overflow-x: hidden; /* Impede rolagem horizontal em toda a página */
-}
+  }
 
-   nav.navbar{
-    padding: 10px 10px;
-    width: 250px;
+  nav.navbar {
+    padding: 10px;
+    width: 100%; /* Altera para 100% para melhor responsividade */
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
-   }
-   nav.navbar .navbar-nav .nav-link.navbar-link{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Coloca os itens em coluna */
+    align-items: flex-start; /* Alinha itens à esquerda */
+  }
+
+  nav.navbar .navbar-nav {
+    display: flex; /* Ativa Flexbox para a barra de navegação */
+    flex-direction: column; /* Itens em coluna para telas menores */
+    width: 100%; /* Alinha o nav para usar toda a largura */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 100;
     padding: 10px;
     font-size: 12px;
-    position: relative; /* Fixed to the viewport */
     display: flex;
-    left: -80%;
-   }
-   .social-icon a{
+    justify-content: flex-start; /* Alinha o texto à esquerda */
+    width: 100%; /* Ocupa 100% do espaço disponível */
+  }
+
+  .social-icon a {
     width: 30px;
     height: 30px;
-    top: 12px;
-    position: relative;
-    left: 30px;
-    bottom: 10px;
-   }
-   .navbar-text button{
+    margin: 5px; /* Adiciona margens para espaçamento */
+  }
+
+  .navbar-text {
+    display: flex;
+    justify-content: center; /* Centraliza o botão */
+    width: 100%; /* Ocupa 100% do espaço disponível */
+  }
+
+  .navbar-text button {
     width: 150px;
     height: 50px;
     font-size: 12px;
-    position: absolute;
-    top: 2px;
     padding: 15px 25px;
+    margin: 5px; /* Margem para espaçamento */
   }
-   .banner{
-    position: relative;
-    top: 0;
-    padding:300px 0;
-   }
-   .banner .tagline{
-   font-size: 16px;
-   }
-   .banner h1{
+
+  .banner {
+    display: flex;
+    flex-direction: column; /* Alinha itens da banner em coluna */
+    justify-content: center; /* Centraliza o conteúdo da banner */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 300px 0;
+  }
+
+  .banner .tagline {
+    font-size: 16px;
+  }
+
+  .banner h1 {
     font-size: 40px;
     max-width: 500px;
-   }
-   .banner img{
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .banner img {
     width: 190px;
-    position: absolute;
-    right: 30%;
     margin-top: -15px;
-   }
-  .skill{
+  }
+
+  .skill {
     margin-bottom: 40px;
+    display: flex;
+    justify-content: center; /* Centraliza habilidades */
   }
-  .skill-slider{
-    width: 120%;
-    position: relative;
-    right: 40px;
+
+  .skill-slider {
+    display: flex;
+    width: 100%; /* Ajusta para ocupar toda a largura */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
   }
-  .channel{
+
+  .channel {
     width: 85%;
     height: 400px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column; /* Alinha itens em coluna */
+    align-items: center; /* Centraliza os itens */
   }
 
-  .channel .taglino{
+  .channel .taglino {
     font-size: 20px;
   }
-  
-  .channel p{
+
+  .channel p {
     font-size: 12px;
     max-width: 220px;
-    position: relative;
-    bottom: 15px;
+    text-align: center; /* Centraliza o texto */
   }
-  .channel img{
+
+  .channel img {
     width: 100px;
-    position: relative;
-    bottom: 220px;
+    margin-bottom: 10px; /* Espaço entre imagem e texto */
   }
-  .channel .vvs{
-    position: relative;
-    bottom: 15px;
+
+  .channel .vvs {
+    margin-top: 15px; /* Espaço acima do texto */
   }
+}
+
+/* Para telas médias (401px a 512px) */
+@media only screen and (max-width: 512px) {
+  nav.navbar {
+    padding: 10px;
+    width: 100%; /* Alinha a navbar à largura total */
   }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 12px;
+  }
+
+  .banner h1 {
+    font-size: 35px;
+  }
+
+  .banner img {
+    width: 180px;
+  }
+
+  .channel p {
+    font-size: 12px;
+    max-width: 200px;
+  }
+
+  .channel img {
+    width: 90px;
+  }
+}
+
+/* Para telas pequenas (312px a 400px) */
+@media only screen and (max-width: 400px) {
+  nav.navbar {
+    padding: 8px;
+    width: 100%; /* Usa a largura total */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-size: 10px;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner img {
+    width: 160px;
+  }
+
+  .channel p {
+    font-size: 10px;
+    max-width: 180px;
+  }
+
+  .channel img {
+    width: 80px;
+  }
+}
