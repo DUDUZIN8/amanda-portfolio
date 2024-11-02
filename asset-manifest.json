@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/amanda-portfolio/static/css/main.fd6a3486.css",
+    "main.css": "/amanda-portfolio/static/css/main.0651ba68.css",
     "main.js": "/amanda-portfolio/static/js/main.4dfdacaf.js",
     "static/js/453.d6a13fa4.chunk.js": "/amanda-portfolio/static/js/453.d6a13fa4.chunk.js",
     "static/media/videofundo.mp4": "/amanda-portfolio/static/media/videofundo.d422fc8bb0722d33ac53.mp4",
@@ -20,12 +20,12 @@
     "index.html": "/amanda-portfolio/index.html",
     "static/media/nav-icon1.svg": "/amanda-portfolio/static/media/nav-icon1.f036938494a3437d45e3e5afbde0cbbc.svg",
     "static/media/nav-icon2.svg": "/amanda-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.fd6a3486.css.map": "/amanda-portfolio/static/css/main.fd6a3486.css.map",
+    "main.0651ba68.css.map": "/amanda-portfolio/static/css/main.0651ba68.css.map",
     "main.4dfdacaf.js.map": "/amanda-portfolio/static/js/main.4dfdacaf.js.map",
     "453.d6a13fa4.chunk.js.map": "/amanda-portfolio/static/js/453.d6a13fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd6a3486.css",
+    "static/css/main.0651ba68.css",
     "static/js/main.4dfdacaf.js"
   ]
 }
